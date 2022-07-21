@@ -16,7 +16,7 @@ module.exports = {
 
         const response = new MessageEmbed({
             title: `${guild.name} | Information`,
-            description: `${guild.description || "Server does not have a discription about them"}`,
+            description: `${guild.description || "Server does not have a description about them"}`,
             color: "RANDOM", 
             thumbnail: {
                 url: `${icon}`, 
